@@ -1,0 +1,44 @@
+.sidenav2 {
+    background-color: #EAEAEA;
+    width: 250px;
+}
+
+.sidenav2 a {
+    color: #000000;
+}
+
+.sidenav2 a:hover {
+    background-color:  #cecccc;
+}
+
+.sidenav2 a:focus {
+    background-color: #cecccc;
+}
+
+
+.sidenav2 img {
+    padding-right: 10px;
+}
+
+.content {
+    padding: 16px;
+    background-color: #F8F8F8;
+}
+
+.icon {
+    max-height: 40px;
+} 
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.25rem;
+}
+
+.card-body a {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}

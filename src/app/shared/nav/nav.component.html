@@ -1,0 +1,74 @@
+<mat-sidenav-container class="">
+    <mat-sidenav class="sidenav2" mode="side" opened fixedInViewport="true" fixedTopGap="64">
+        <mat-nav-list class="nav-list">
+            <a mat-list-item routerLink="">
+                <img class="icon" src="assets/icons/searchShop.png" alt="logo">
+                Localiza Pedido
+            </a>
+            <a mat-list-item routerLink="">
+                <img class="icon" src="assets/icons/parcela.png" alt="logo">
+                Localiza Estoque
+            </a>
+            <a mat-list-item routerLink="">
+                <img class="icon" src="assets/icons/camera-fotografica.png" alt="logo">
+                Foto
+            </a>
+            <a mat-list-item routerLink="">
+                <img class="icon" src="assets/icons/man.png" alt="logo">
+                Colaborador Digital
+            </a>
+            <a mat-list-item routerLink="">
+                <img class="icon" src="assets/icons/receptor.png" alt="logo">
+                Recebimento de Mercadoria
+            </a>
+            <a mat-list-item routerLink="">
+                <img class="icon" src="assets/icons/transferencia.png" alt="logo">
+                Transferência de Mercadoria
+            </a>
+            <!-- <a mat-list-item routerLink="">
+                <img class="icon" src="assets/icons/etiqueta-de-preco.png" alt="logo">
+                Etiqueta
+            </a> -->
+
+            <a mat-list-item data-toggle="collapse" href="#listaEtiquetas" aria-expanded="false" aria-controls="listaEtiquetas">
+                <img class="icon" src="assets/icons/etiqueta-de-preco.png" alt="logo">
+                Etiqueta
+            </a>
+            <div class="collapse" id="listaEtiquetas">
+                <div class="card card-body">
+                    <a  routerLink="">
+                        Preço por Arquivo
+                    </a>
+                    <a  routerLink="">
+                        Preço Individual
+                    </a>
+                    <a  routerLink="">
+                        Desconto
+                    </a>
+                    <a  routerLink="">  
+                        Promocional
+                    </a>
+                    <a  routerLink="">  
+                        Pedido
+                    </a>
+                    <a  routerLink="">  
+                        Transferência
+                    </a>
+                    <a  routerLink="">  
+                        Transferência Foto
+                    </a>
+                    <a  routerLink="">  
+                        Troca Recebida
+                    </a>
+                 
+                </div>
+            </div> 
+
+
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content class="content">
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container> 
+
